@@ -1,0 +1,55 @@
+.panel{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 3%;
+}
+.panel .part{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background:linear-gradient(rgb(234, 42, 131),rgb(201, 177, 189));
+    box-shadow: 0px 0px 5px rgb(183, 177, 177);
+}
+.panel2{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 3%;
+    margin-top:20px ;
+}
+.panel2 .box{
+    width: 110px;
+    height: 110px;
+    border-radius: 30%;
+    background:linear-gradient(90deg,rgb(110, 177, 243),rgb(144, 38, 209));
+    box-shadow: 0px 0px 5px rgb(183, 177, 177);
+}
+.panel3{
+    width: 100%;
+    height: 35vh;
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    margin-top:20px ;
+}
+.panel3 .boxes{
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+    background:linear-gradient(blueviolet,crimson);
+    box-shadow: 0px 0px 5px rgb(183, 177, 177);
+}
+.panel3 button{
+    padding: 10px 30px;
+    border: 2px solid white;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
